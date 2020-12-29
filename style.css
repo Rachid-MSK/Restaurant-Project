@@ -1,0 +1,81 @@
+body{
+    background: url(images/my_resto.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+header{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.head{
+    float: left;
+    color: red;
+    font-family: cursive;
+
+}
+nav{
+    float: right;
+    color: rgb(101, 211, 74);
+}
+li{
+    display: inline;
+    padding: 1rem;
+}
+li a{
+    color: seagreen;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.active{
+    color: goldenrod;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1%;
+}
+showcase{
+    color: greenyellow;
+    font-family: cursive;
+    text-align: center;
+}
+showcase h3{
+    color: rgb(104, 235, 52);
+    letter-spacing: 2px;
+}
+.category{
+    color: rgb(178, 224, 12);
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+}
+img{
+    width: 90%;
+    border-radius: 50%;
+}
+.snacks, .grill{
+    padding-left: 1rem;
+
+}
+.category h4{
+    color: rgb(250, 166, 11);
+    background-color: rgb(235, 27, 27);
+}
+h4{
+    font-size: 2rem;
+    margin: 1%;
+
+}
+.btn{
+    background-color: rgb(197, 240, 6);
+    color: rgb(0, 0, 0);
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 45%;
+}
